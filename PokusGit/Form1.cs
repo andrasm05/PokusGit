@@ -31,5 +31,10 @@ namespace PokusGit
             MessageBox.Show("Soucin je: " + soucin);
             MessageBox.Show("Podil je: " + podil);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ITA2 Marcel Andras");
+        }
     }
 }
