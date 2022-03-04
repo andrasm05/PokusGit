@@ -36,5 +36,17 @@ namespace PokusGit
         {
             MessageBox.Show("ITA2 Marcel Andras");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox3.Text);
+            int faktorial = 1;
+
+            for(int i = 1; i <= a;++i)
+            {
+                faktorial *= i;
+            }
+            MessageBox.Show("Faktorial je: " + faktorial);
+        }
     }
 }
