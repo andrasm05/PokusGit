@@ -19,11 +19,17 @@ namespace PokusGit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int x = int.Parse(textBox1.Text);
-            int y = int.Parse(textBox2.Text);
-
-            int soucet = x + y;
-            label1.Text = "Soucet cisel je: " + soucet;
+            double x = int.Parse(textBox1.Text);
+            double y = int.Parse(textBox2.Text);
+            double soucet = x + y;
+            double rozdil = x - y;
+            double soucin = x * y;
+            double podil = x / y;
+           
+            MessageBox.Show("Soucet je: " + soucet);
+            MessageBox.Show("Rozdil je: " + rozdil);
+            MessageBox.Show("Soucin je: " + soucin);
+            MessageBox.Show("Podil je: " + podil);
         }
     }
 }
